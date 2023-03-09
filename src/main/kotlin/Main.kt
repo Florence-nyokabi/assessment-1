@@ -1,11 +1,10 @@
-
-
 fun main(){
     println(takeString("school", "church"))
     println(splitString("Nyokabi"))
 
    var x = Calculator(10, 20)
-
+    println(addition())
+    println(addition())
 
 
 }
@@ -50,10 +49,12 @@ Question 4
 Write and call a function that takes in an array of strings, joins them all into
 one string and returns it.
  */
-fun joinArray(array1: Array<String>){
-    var joinstrings = array1.join
+fun joinArray(array1: Array<String>) {
+    var joinstrings = array1.split()
+    println
 
-    }
+
+}
 
 /*
        Question 5
@@ -78,4 +79,3 @@ fun joinArray(array1: Array<String>){
                 return num2 * num2
             }
         }
-    }
